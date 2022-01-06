@@ -16,4 +16,9 @@ public class Mercedes extends Car{
     public void makeVoice(String name) {
         super.makeVoice(name);
     }
+
+    @Override
+    public String printInfo() {
+        return super.printInfo() + "\nClass: " + carClass;
+    }
 }

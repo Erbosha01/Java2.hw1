@@ -24,4 +24,14 @@ public class Car extends Transport {
      final void makeVoice() {
         System.out.println("Биип биииип");
     }
+
+    public String printInfo() {
+        return "Name: " + getName() +
+                "\nYear: " + getYear() +
+                "\nSpeed: " + getSpeed() +
+                "\nColor: " + getColor() +
+                "\nCar showroom: " + getCarShowroom().getName() + " " + getCarShowroom().getStreet() +
+                "\nModel: " + model +
+                "\nCar body: " + carBody;
+    }
 }
